@@ -1,0 +1,43 @@
+/* Styles for the text editor */
+.text-editor {
+      width: 794px;  /* Width for A4 in pixels */
+  height: 1123px; /* Height for A4 in pixels */
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #fff;
+  font-family: 'Calibri', sans-serif;
+  font-size: 14px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 20px auto;
+    }
+    
+    /* Style for the toolbar */
+    .toolbar {
+      margin-bottom: 10px;
+    }
+    
+    .toolbar button {
+      background-color: #0078d4;
+      color: white;
+      border: none;
+      padding: 8px;
+      margin-right: 5px;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+    
+    .toolbar button:hover {
+      background-color: #005a9e;
+    }
+    
+    .toolbar button:focus {
+      outline: none;
+    }
+    
